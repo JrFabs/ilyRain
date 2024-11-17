@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Page Title</title>
+  <style>
+    body {
+      display: flex;
+      margin: 0;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background: #000;
+    }
+
+    span {
+      font-size: 100px;
+      color: black;
+      margin-inline: 8px;
+      transition: color 0.3s,text-shadow 0.3s;
+    }
+	
+      span:hover {
+      color: #ffe5ec;
+      text-shadow: 0 0 15px rgba(202, 240, 248, 0.7); /* Adjust this for the desired box shadow */
+    }
+
+    span:hover + span {
+      color: #5e548e; 
+      text-shadow: 0 0 15px rgba(94, 84, 142, 1);
+    }
+ 
+     span:hover + span + span{
+      color: #ff8fab;
+      text-shadow: 0 0 15px rgba(255, 143, 171, 1);
+    }
+    
+  </style>
+  
+</head>
+<body>
+
+  <span>I</span><Br>
+  <span>L</span>
+  <span>O</span>
+  <span>V</span>
+  <span>E</span>
+  <span>Y</span>
+  <span>O</span>
+  <span>U</span>
+
+</body>
+</html>
